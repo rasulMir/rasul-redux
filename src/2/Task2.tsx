@@ -1,6 +1,7 @@
 import { Container } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
+import BackMainPageBtn from '../BackMainPageBtn';
 import BttmNumbers from './components/BttmNumbers';
 import ClearBtn from './components/ClearBtn';
 import TopOutput from './components/TopOutput';
@@ -27,12 +28,15 @@ interface Props {}
 
 export default function Task2({}: Props) {
 	return (
-		<Container maxWidth='md' sx={container}>
-			<Box sx={box}>
-				<TopOutput/>
-				<BttmNumbers/>
-				<ClearBtn/>
-			</Box>
-		</Container>
+		<>
+			<BackMainPageBtn/>
+			<Container maxWidth='md' sx={container}>
+				<Box sx={box}>
+					<TopOutput/>
+					<BttmNumbers/>
+					<ClearBtn/>
+				</Box>
+			</Container>
+		</>
 	)
 }
