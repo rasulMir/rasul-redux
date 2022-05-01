@@ -10,7 +10,7 @@ const container = {
 	display: 'flex',
 	alignItems: 'center',
 	justifyContent: 'center',
-	height: '100vh'
+	maxHeight: '100vh'
 }
 
 const box = {

@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 
 import { Box, Container, Button, Popover, Typography } from '@mui/material';
 import TextField from '@mui/material/TextField';
-import { addTodo } from '../../redux/reducer1';
+import { addTodo } from '../redux/reducer1';
 
 interface Props {}
 

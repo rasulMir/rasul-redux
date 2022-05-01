@@ -21,6 +21,10 @@ export default function MainNav({}: Props) {
 				<Button>
 					<Link to='task2' style={{flex: '1 0 100%', padding: '5px'}}> Redux 2 </Link>
 				</Button>
+				<Button>
+					<Link to='task3' style={{flex: '1 0 100%', padding: '5px'}}> Redux 3 </Link>
+				</Button>
+
 			</ButtonGroup>
 		</Container>
 	)

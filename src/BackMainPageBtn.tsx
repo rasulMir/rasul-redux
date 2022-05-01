@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 interface Props {}
 
 export default function BackMainPageBtn({}: Props) {
+	console.log('BackMainPageBtn')
 	let navigate = useNavigate();
 	return (
 		<Box sx={{ margin: '15px 0', display : 'flex', justifyContent: 'center' }}>

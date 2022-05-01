@@ -1,7 +1,7 @@
 import { List, ListItemText, Container, ListItem, Button, ButtonGroup, Typography } from '@mui/material'
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { delTodo, IListItem, editTodo } from '../../redux/reducer1';
+import { delTodo, IListItem, editTodo } from '../redux/reducer1';
 
 interface Props {}
 

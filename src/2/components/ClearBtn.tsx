@@ -1,12 +1,14 @@
 import React from 'react';
 import { Button, Box } from '@mui/material';
 import { useDispatch } from 'react-redux';
-import { clearAll } from '../../redux/reducer2';
+import { clear } from '../redux/actionCreators';
+
 const box = {
 	display: 'grid',
 	gap: 2,
 	gridTemplateColumns: '1fr',
 }
+
 interface Props {}
 
 export default function ClearBtn({}: Props) {
@@ -14,7 +16,7 @@ export default function ClearBtn({}: Props) {
 	
 	return (
 		<Box sx={box}>
-			<Button variant='contained' color='error' onClick={() => dispatch(clearAll('all'))}>
+			<Button variant='contained' color='error' onClick={() => dispatch(clear())}>
 				Очистить
 			</Button>
 		</Box>
